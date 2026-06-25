@@ -6,6 +6,7 @@ sudo apt-get update -y
 
 # Install Docker
 sudo apt-get install docker.io -y
+sudo apt install docker-compose -y
 
 # Add the 'ubuntu' and 'jenkins' users to the 'docker' group to allow running Docker without sudo
 sudo usermod -aG docker ubuntu 
